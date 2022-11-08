@@ -1,0 +1,141 @@
+.money-manager {
+  background-color: #ffffff;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+.user-container {
+  background-image: url(https://assets.ccbp.in/frontend/react-js/money-manager/money-manager-bg.png);
+  background-size: cover;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+  padding-left: 40px;
+  padding-top: 40px;
+  padding-bottom: 25px;
+  margin: 15px;
+}
+@media screen and (min-width: 768px) {
+  .user-container {
+    align-items: flex-start;
+    padding-left: 50px;
+  }
+}
+.user-heading {
+  font-family: roboto;
+}
+.user-para {
+  font-family: roboto;
+}
+.span-para {
+  color: #0b69ff;
+}
+.transaction-container {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  margin: 20px;
+}
+@media (min-width: 768px) {
+  .transaction-container {
+    display: flex;
+    flex-direction: row;
+  }
+}
+.transaction-input {
+  background-color: white;
+  border: 2px solid #475569;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  width: 100%;
+}
+@media (min-width: 768px) {
+  .transaction-input {
+    width: 40%;
+  }
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+}
+.input {
+  font-size: 14px;
+  font-family: roboto;
+  padding: 10px;
+  width: 100%;
+  margin-bottom: 20px;
+  margin-top: 10px;
+}
+.label {
+  padding: 10px;
+}
+.add-button {
+  height: 40px;
+  width: 70px;
+  border-radius: 20px;
+  background-color: #0b69ff;
+  font-size: 14px;
+  color: white;
+  font-family: roboto;
+  border: none;
+}
+.trans-history-container {
+  background-color: white;
+  border: 2px solid #475569;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+  width: 100%;
+  padding: 20px;
+}
+@media (min-width: 768px) {
+  .trans-history-container {
+    width: 60%;
+  }
+}
+.trans-history {
+  background-color: white;
+  border: 2px solid #cbd5e1;
+
+  display: flex;
+  flex-direction: column;
+}
+.sub-heading {
+  margin-left: 25px;
+  font-weight: 500;
+  font-size: 18px;
+  font-family: roboto;
+}
+.sub-heading-container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  height: 48px;
+  list-style-type: none;
+  border: 1px solid #cbd5e1;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+@media screen and (min-width: 768px) {
+  .sub-heading-container {
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+}
+.line {
+  height: 5px solid #cbd5e1;
+}
+.all-transactions {
+  display: flex;
+  flex-direction: column;
+  list-style-type: none;
+}
